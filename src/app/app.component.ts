@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'hesabu-app';
+  title = 'Hesabu Business app is the easiest way to manage inventory,invoicing, track expenses, payments for individuals and businesses';
 }

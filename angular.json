@@ -31,9 +31,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./src/css/customstyles.css",
+              "./src/css/swiper.css",
+              "./src/styles.scss",
+              "./node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./src/js/purecounter.min.js",
+              "./src/js/replaceme.min.js",
+              "./src/js/swiper.min.js",
+              "./src/js/scripts.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -99,7 +109,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           }
