@@ -14,6 +14,10 @@ import { PricingComponent } from './shared/pricing/pricing.component';
 import { FeaturesComponent } from './shared/features/features.component';
 import { HeroComponent } from './shared/hero/hero.component';
 
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { VerifyemailComponent } from './pages/verifyemail/verifyemail.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +27,11 @@ import { HeroComponent } from './shared/hero/hero.component';
     FooterComponent,
     PricingComponent,
     FeaturesComponent,
-    HeroComponent
+    HeroComponent,
+    
+    LoginComponent,
+    RegisterComponent,
+    VerifyemailComponent
   ],
   imports: [
     BrowserModule,

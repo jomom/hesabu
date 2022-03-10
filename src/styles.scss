@@ -1,8 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
-
+*{
+    margin: 0px;
+    padding: 0pc;
+}
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .btn-green{
     background-color: #004d40;
     color: #fff;
+    border-color: #004d40;
+}
+.btn-green:hover {
+    color: #fff;
+    background-color: #004d40;
+    border-color: #004d40;
+    box-shadow:  
+    inset -10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-green:focus {
+    color: #fff;
+    background-color: #004d40;
+    border-color: #004d40;
+    box-shadow:  
+    inset -10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-outline-green{
+    color: #004d40;
+    border-color: #004d40;
+}
+.btn-outline-green:hover {
+    color: #fff;
+    background-color: #004d40;
+    border-color: #004d40;
 }

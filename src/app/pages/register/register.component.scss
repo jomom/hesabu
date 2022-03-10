@@ -1,0 +1,80 @@
+.register-section{
+    background-color: rgba(217, 222, 248, 0.644);
+    height: 100vh;
+    margin-bottom: 0px;
+    
+}
+.form-section{
+    top: 40;
+}
+.form-title{
+    font-weight: 900;
+    // font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.register-card{
+    z-index: 2;
+}
+
+.text-lg{
+    font-size: 1.275rem;
+    line-height: 1.25rem;
+}
+.text-sm{
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.text-gray-600{
+    color: rgba(51, 65, 85, 0.85);
+    font-weight: 600;
+}
+.text-primary-600{
+    color: #004d40;
+    font-weight: 600;
+}
+.btn-outline-green{
+    color: #004d40;
+    border-color: #004d40;
+}
+.btn-outline-green:hover {
+    color: #fff;
+    background-color: #004d40;
+    border-color: #004d40;
+}
+.btn-outline-green:focus {
+    color: #fff;
+    background-color: #004d40;
+    border-color: #004d40;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .register-section{
+        padding-top: 2.5rem;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .register-section{
+        padding-top: 2.5rem;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .register-section{
+        padding-top: 2.5rem;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .register-section{
+        padding-top: 7.5rem;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .register-section{
+        padding-top: 7.5rem;
+    }
+}
