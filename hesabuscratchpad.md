@@ -7,169 +7,166 @@ git push -u origin main
 ### Angular flex and Header
 (https://zoaibkhan.com/portfolio/)
 
-<section class="section-two">
-  <div>
-    <h2>Hesabu Business Features</h2>
-    <div>
-      <h3>Inventory Management</h3>
-      <ul>
-        <li>Manage products and stock levels</li>
-        <li>Get products and stoct activity history</li>
-      </ul>
-    </div>
-    <div>
-      <h3>Customer Management</h3>
-      <ul>
-        <li>Manage your customer details from a central place</li>
-        <li>Review customer transactions history</li>
-      </ul>
-    </div>
-    <div>
-      <h3>Team Management</h3>
-      <ul>
-        <li>Create Custom Profiles</li>
-        <li>Manage Roles & Permissions</li>
-      </ul>
+### mongo db credentials 
+admin
+hesabusoftware2022
 
-    </div>
-    <div>
-      <h3>Point of Sale</h3>
-      <ul>
-        <li>Record sales, issue discounts with ease</li>
-        <li>Get sales reports realtime</li>
-      </ul>
+### stock yangu
+firdobepsi@vusra.com
+milionimoja2877
 
-    </div>
+### ethereal
+nkgcgvmdqdyqdr3z@ethereal.email
 
-    <div>
-      <img src="../assets/dashboard.svg" alt="Feature image" class="feature-img">
-    </div>
+###shopify
+xuwonusy@musiccode.me
+Readme2022
 
-</section>
+Your account details:
 
+URL: xuwonusy.myshopify.com
+Login: xuwonusy.myshopify.com/admin
 
-<section class="features-section">
-  <h1 class="features-title">Lets get to business</h1>
-  <p class="features-text">
-    Hesabu is a complete cloud based package with all of the outlined features
-    catered towards individuals and businesses.
-  </p>
-  <div class="inner-features">
-    <div class="mat-card features-card">
-      <h1>Sales</h1>
-      <p>
-        Point of sale features: 1. Supports partial payments credit or otherwise
-        2. M-PESA payment auto-mathcing & reconciliation 3. Touch or "official"
-        display options 4. Customer & loyalty points management 5. Sale item
-        returns, sales discount & many more Generate inciteful reports e.g best
-        selling, profit margin & cogs analysis sorted by customer, stock sold &
-        product category
-      </p>
-    </div>
-    <div class="mat-card features-card">
-      <h1>Emails & SMS</h1>
-      <p>
-        Send out customized bulk messages to ALL / SOME customers & suppliers
-        Create re-usable message templates saving time
-      </p>
-    </div>
-    <div class="mat-card features-card">
-      <h1>Inventory management</h1>
-      <p>
-        Manage your product data with extras such as many-in-one & hierarchical
-        configurations Time-based discounts useful for seasonal discounts on
-        SPECIFIC products Industry standard stock management methods: stock count,
-        stock transfers & stock adjustment to ensure your store always has the
-        correct stock for sale Re-stocking cycle: 1. Purchase order 2. Purchase
-        invoice 3. Receiving stock 4. Manage supplier payments & debts
-      </p>
-    </div>
-    <div class="mat-card features-card">
-      <h1>Role Based Access Control</h1>
-      <p>
-        Manage your employee details Create user roles to define their job
-        description Give permissons to ONLY what they need
-      </p>
-    </div>
-    <div class="mat-card features-card">
-      <h1>Financial reports - (GAAP standards)</h1>
-      <p>General ledger Trail balance Balance sheet</p>
-    </div>
-  </div>
-</section>
+shopify 2
+kexosi7636@f1xm.com
+killman
 
 
 
-<section>
-  What our users are saying Before QuickBooks I dreaded the accounting side of
-  my business. Now I can get everything done in minutes and spend time doing
-  what I love. Ash Read, Full time self-employed
-</section>
+### authentication links
+(https://betterprogramming.pub/how-to-create-a-signup-confirmation-email-with-node-js-c2fea602872a)
+important! authentication + other tuts
+(https://github.com/bezkoder/node-js-jwt-auth-mongodb)
+node + angular  email authentication
+(https://github.com/harshal77/email-verification-node-angular)
+full stack react + mern app
+https://www.youtube.com/watch?v=EjP8mZBtJjo&list=PLaAoUJDWH9WpmAUayPDh8zrwZoH_PZ4ON&index=
+Routing  Documentation
+(https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#create_the_route-handler_callback_functions)
+Data alidation
+(https://www.topcoder.com/thrive/articles/data-validation-in-nodejs-and-express-using-joi)
+customizie mongodb
+(https://youtu.be/5yU-P0grJjk)
+uodate login registration
+(https://youtu.be/kmAzuH2Lzug)
+jwt 
+(https://medium.com/swlh/nodejs-with-jwt-authentication-feb961763541)
+ng series
+(https://www.youtube.com/watch?v=cznobRuS0UQ)
+lazy loading 
+(https://www.youtube.com/watch?v=ibn2yAomxp8)
+(https://www.youtube.com/watch?v=ibn2yAomxp8&t=115s)
 
-<section>Gets started now Request a demo</section>
+authentication
+(https://www.youtube.com/watch?v=7al2_2t2AME)
+full nest angular project
+(https://www.youtube.com/watch?v=6ySmc_vvssA)
 
-<section>
-  Keep pushing forward. We've got your back. Support to set up or use Xero Get
-  support to call to be contacted again Faq
-</section>
+mean stack project
+(https://www.youtube.com/watch?v=Pv86FBPyWUA&list=PLp50dWW_m40XVtnF0aWp3t1oJIl2lqWe4&index=11)
 
-<section>
-  Wave logo PRODUCTS Accounting Software Invoice Software Mobile invoicing
-  FEATURES Pricing — Free Software Recurring billing Invoice templates
-  QuickBooks alternative WAVE About us Meet the team Careers Press Partners
-  Sitemap RESOURCES Blog Help Center Community Freelance Hub Payments Report
-  CONTACT US Contact us System Status
-</section>
+mean stack orders
+(https://www.youtube.com/results?search_query=mean+stack+orders+)
+simple apppointment app
+(https://github.com/codebubb/appointment-booking/blob/master/api/package.json)
 
-<section>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et
-  aliquet leo. Quisque commodo metus quis tempus tristique. Nam lobortis ipsum
-  id elit malesuada, non lacinia nisl ultricies. Phasellus sodales ut purus ac
-  sollicitudin. Vivamus et ex in lorem finibus faucibus in eu mauris. Proin
-  ultrices dictum quam vel eleifend. Duis tincidunt volutpat lectus tincidunt
-  condimentum. Aliquam sit amet ornare orci. Vivamus porta luctus tortor quis
-  placerat. Donec tincidunt purus ut quam posuere fringilla lobortis eget arcu.
-  Suspendisse gravida, mi ut tristique egestas, enim augue elementum felis, eget
-  tristique lectus lectus id nisl. Etiam condimentum ligula urna, id
-  sollicitudin ligula lobortis non. Duis luctus diam quis risus eleifend, quis
-  suscipit turpis hendrerit. Sed ornare nibh eget felis tincidunt rhoncus.
-  Vivamus blandit, justo volutpat gravida dapibus, magna dui iaculis dolor, vel
-  mattis diam ex nec erat. In quam odio, porta eget ligula ac, bibendum sodales
-  sem. Fusce iaculis et elit at porttitor. Nullam vestibulum urna vitae ligula
-  malesuada rutrum. Nam rutrum, enim efficitur luctus dapibus, leo mi suscipit
-  urna, sit amet scelerisque diam enim quis diam. Proin sed neque enim. Orci
-  varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-  mus. Etiam ligula massa, dapibus et odio id, eleifend posuere neque. In id
-  risus urna. Donec id fermentum nisi, non pharetra turpis. Aenean congue,
-  tellus rhoncus cursus vehicula, nisi nunc ullamcorper libero, et malesuada ex
-  massa eget augue. Morbi aliquet, purus id imperdiet ultricies, nisi nisi
-  consectetur augue, ac viverra ex quam non sem. Phasellus pharetra sagittis
-  lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-  posuere cubilia curae; Nunc tempor turpis velit, quis porttitor quam sodales
-  vitae. Aliquam at nisi laoreet, tristique urna a, lobortis ante. Curabitur
-  commodo purus sed tempor sollicitudin. Maecenas rhoncus purus odio, nec
-  commodo urna ornare et. Ut eu ullamcorper purus. Curabitur congue, sapien non
-  sollicitudin maximus, metus leo tempus lorem, molestie ultrices metus nisi in
-  ex. Donec in viverra leo. Ut nec augue non nulla ultricies tincidunt. Sed
-  mollis est enim, sit amet sollicitudin nibh tristique ut. Quisque iaculis,
-  odio et feugiat finibus, diam neque ultricies turpis, nec tempor nulla metus
-  in tellus. Vivamus ut turpis lacinia erat vulputate sagittis vitae eu erat.
-  Praesent nec justo sapien. Nulla vestibulum lorem vel odio tincidunt
-  condimentum. Fusce elementum tortor et quam ultrices, ac consequat tortor
-  sollicitudin. Donec consequat cursus porta. Integer sed sodales est.
-  Vestibulum eu magna vel orci tincidunt efficitur sed eu lorem. Maecenas enim
-  nulla, euismod vel tortor sit amet, accumsan feugiat purus. Donec id mattis
-  tellus. Mauris ut massa ut nunc ultricies lobortis. Etiam egestas, nulla
-  facilisis pharetra maximus, magna sapien dignissim purus, id consectetur mi
-  nisi a dolor. Morbi at sapien sapien. Sed eleifend risus eu risus viverra,
-  eget commodo mauris pharetra. Ut sed purus ac erat volutpat tempor. Praesent
-  eu quam magna. Cras malesuada nisi massa, facilisis eleifend enim lacinia ac.
-  Nam ultrices accumsan eros, vel porttitor ipsum posuere nec. Cras ullamcorper
-  ornare justo a vulputate. Aenean eu libero diam. Pellentesque a est et lorem
-  scelerisque dapibus. Vivamus efficitur a mauris quis tincidunt. Mauris
-  elementum hendrerit tellus, id ornare sem viverra sed. Nulla vel ipsum vitae
-  ipsum convallis convallis. In hac habitasse platea dictumst. Proin sed
-  tristique arcu. Sed vehicula porttitor leo ut rhoncus. Phasellus eget iaculis
-  magna.
-</section>
-<app-stickycta></app-stickycta> -->
+test terinal transaction
+(https://www.youtube.com/watch?v=Gc3pBH4ddi0&t=5s)
+modules and serices
+
+
+modelling schemamas
+(https://www.infoq.com/articles/data-model-mongodb/)
+(https://mongodb-documentation.readthedocs.io/en/latest/use-cases/product-catalog.html#gsc.tab=0)
+
+helpfuljs(https://howtojs.io/how-to-properly-set-the-data-type-to-the-data-received-inside-subscribe-in-angular-13-application/)
+
+###Reading list 
+lazy loading angular modules
+small change
+
+
+## Create Models
+-> users
+-> customers
+-> Products
+-> Settings 
+-> Orders
+tut no 5
+
+Create Routes and api
+## Views
+Product start here ...add product
+Orders
+
+require('dotenv').config()
+const express = require('express');
+const config = require('./config/database');
+const bodyParser = require('body-parser');
+const bcrypt = require('bcryptjs');
+const cors = require('cors');
+const cookieParser = require('cookie-parser')
+const helmet = require("helmet");
+
+const app = express()
+// socket connection
+const http = require('http')
+const server = http.createServer(app);
+const { Server } = require("socket.io");
+const io = new Server(server, {
+  cors: {
+    origin: "*"
+  }
+});
+io.on('connection', (socket) => {
+  console.log('a user connected');
+
+  socket.emit('Test Event', 'This is some new data sockets on!!')
+
+  socket.on('disconnect', () => {
+    console.log('user disconnected');
+  });
+});
+
+/* var io = require('socket.io')(server,
+    {
+    cors: {
+      origin:'*',
+      methods: ["GET", "POST"],
+      allowedHeaders: ["my-custom-header"],
+      credentials: true
+    }
+  }
+
+  ); */
+
+/* app.set('io', io); */
+/* io.on('connection', socket => {
+  console.log("new  sockeet connection...");
+  socket.emit("test event", "hey sockets on");
+}); */
+
+app.use(express.json())
+app.use(cors({ origin: '*' }))
+//add & use helmet
+app.use(helmet());
+
+
+//bodyparser middleware
+// parse application/x-www-form-urlencoded/ // parse application/json
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+//add cookie-parser
+app.use(cookieParser())
+
+// Create Routes
+const routes = require('./routes/routes');
+
+//Implement Routes
+app.use("/", routes)
+
+//start the server
+const port = 3000
+app.listen(port, () => {
+  console.log(`App listening on port ${port}`)
+})

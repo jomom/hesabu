@@ -1,0 +1,40 @@
+<div class="container-fluid register-section">
+    <div class="mx-auto col-sm-4 form-section">
+        <h4 class="text-center form-title py-4 text-lg">Sign up for a new account</h4>
+        <div class="card register-card py-4 px-4">
+            <form class="form-signin py-4" [formGroup]="form"  (submit)="submit()">
+
+                <div class="pt-4">
+                <label for="first_name" class="text-sm block text-gray-700 py-2">First Name</label>
+                <input formControlName="firstName" type="text"  class="form-control"  required>
+                </div>
+
+                <div class="pt-4">
+                    <label for="second_name" class="text-sm block text-gray-700 py-2">Second Name</label>
+                    <input formControlName="secondName" type="text"  class="form-control"  required>
+                    </div>
+
+                <div class="pt-4">
+                <label for="email" class="text-sm block text-gray-700 py-2"  >Email Address</label>
+                <input  formControlName="email" type="email"  class="form-control"  required>
+                </div>
+
+                <div class="py-2">
+                <label for="inputPassword" class="text-sm block font-medium text-gray-700 py-2">Password</label>
+                <input formControlName="password" type="password" class="form-control"  required>
+                </div>
+
+                <div class="py-2">
+                <label for="inputPassword" class="text-sm block font-medium text-gray-700 py-2">Confrim Password</label>
+                <input  formControlName="password_confirm" type="password" class="form-control"  required>
+                </div>
+
+                <div class="d-grid gap-2 pb-4">
+                    <button class="btn btn-primary btn-green mt-5" type="submit">Sign Up</button>
+                </div>
+                
+              </form>
+        </div>
+    </div>
+    
+</div>
