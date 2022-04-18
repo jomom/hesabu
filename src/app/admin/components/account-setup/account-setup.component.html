@@ -1,0 +1,102 @@
+<div class="container-fluid bg-light" id="bg-form">
+    
+    <form class="container card" action="" id="account_setup">
+        <div class="tab">
+            <div class="form_header text-center">
+                <small>Step 1 of 2</small>
+                <h5>Tell us a little about yourself</h5>
+                <p> We’ll help you get started based on your responses </p>
+            </div>
+            <div>
+                <label for="are_you_selling">Are you already selling?</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Yes</option>
+                    <option value="1">No</option>
+                    <option value="2">Im just playing around</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="how_you_Sell">How do you want to sell?</label>
+                <select class="form-select" aria-label="How do you want to sell">
+                    <option selected>In person only</option>
+                    <option value="1">Online only</option>
+                    <option value="2">In person and online</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="how_you_Sell">What industry will you operate in?</label>
+                <select class="form-select" aria-label="What industry do you operate in">
+                    <option selected>Please choose one</option>
+                    <option value="1">Beauty</option>
+                    <option value="2">Clothing</option>
+                    <option value="3">Electronics</option>
+                    <option value="4">Furniture</option>
+                    <option value="5">Restauants</option>
+                    <option value="6">Groceries</option>
+                    <option value="7">Sports</option>
+                    <option value="8">Services</option>
+                    <option value="9">Handcrafts</option>
+                    <option value="10">Furniture</option>
+                    <option value="11">Other</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="tab">
+            <div class="text-center">
+               <small> Step 2 of 2</small>
+                <h5>Add an address so you can get paid <br>This will be used as your default business address.</h5>
+                <p>You can always change this later.</p>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="country">What country are you from</label>
+                    <input type="text" class="form-control" id="inputCountry">
+                </div>
+                <div class="col-md-6"> 
+                    <label for="county">What Region/County Are you from?</label>
+                    <input type="text" class="form-control" id="inputCounty">
+                </div>
+                <div class="col-md-6">
+                  <label for="firstname" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="inputFirstName">
+                </div>
+                <div class="col-md-6">
+                  <label for="secondname" class="form-label">Second Name</label>
+                  <input type="text" class="form-control" id="inputSecondName">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Enter Busines Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Enter Business Name</label>
+                    <input type="text" class="form-control" id="inputBusinessName" placeholder="Enter Business Name">
+                  </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        This store is a registered business
+                      </label>
+                    </div>
+                  </div>
+               
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+             </div>
+        </div>
+        <hr>
+      </form>
+      <div class="text-center py-4">
+        <small>
+          By clicking “Submit” you agree to Hesabu Business Manager Terms of service
+           and Privacy policy.
+          </small>
+      </div>
+</div>

@@ -5,21 +5,16 @@
             <form class="form-signin py-4">
                 <div class="pt-4">
                 <label for="email" class="text-sm block text-gray-700 py-2"  >Email Address</label>
-                <input type="email"  class="form-control"  required>
+                <input formControlName="email"  type="email"  class="form-control"  required>
                 </div>
 
                 <div class="py-2">
                 <label for="inputPassword" class="text-sm block font-medium text-gray-700 py-2">Password</label>
-                <input type="password" class="form-control"  required>
+                <input formControlName="password" type="password" class="form-control"  required>
                 </div>
                 
                 <div class="d-sm-flex justify-content-between py-xs-4 py-2 ">
-                    <div class="checkbox mb-3">
-                        <label class="text-sm block text-gray-700 ">
-                          <input class="text-sm text-gray-700" type="checkbox" value="remember-me"> Remember me
-                        </label>
-                      </div>
-                    <a href="..." class="font-medium text-primary-600 hover:text-primary-500"> Forgot your password? </a>
+                    <a routerLink="/forgot"class="font-medium text-primary-600 hover:text-primary-500"> Forgot your password? </a>
                 </div>
 
                 <div class="d-grid gap-2 pb-4">

@@ -1,0 +1,25 @@
+<div class="container-fluid login-section">
+    <div class="mx-auto col-sm-4 form-section ">
+        <h4 class="text-center form-title py-4 text-lg">Enter Email to Reset Password</h4>
+        <div class="card login-card py-4 px-4">
+            <form class="form-signin py-4" [formGroup]="form" (submit)="submit()">
+
+                <div *ngIf="cls" class="alert alert-{{cls}}" role="alert">
+                    <h4>{{message}}</h4>
+                </div>
+
+                <div class="pt-4">
+                <label for="email" class="text-sm block text-gray-700 py-2"  >Email Address</label>
+                <input formControlName="email"  type="email"  class="form-control"  required>
+                </div>
+
+                <div class="d-grid gap-2 pb-4 pt-5">
+                    <button class="btn btn-primary btn-green mb-3" type="submit">Sign In</button>
+                </div>
+                
+                
+              </form>
+        </div>
+    </div>
+    
+</div>

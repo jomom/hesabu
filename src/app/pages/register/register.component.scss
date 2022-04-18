@@ -1,7 +1,7 @@
 .register-section{
     background-color: rgba(217, 222, 248, 0.644);
-    height: 100vh;
-    margin-bottom: 0px;
+    // height: 100vh;
+    // margin-bottom: 0px;
     
 }
 .form-section{
@@ -9,7 +9,6 @@
 }
 .form-title{
     font-weight: 900;
-    // font-size: 1.875rem;
     line-height: 2.25rem;
 }
 .register-card{
@@ -71,6 +70,7 @@
     .register-section{
         padding-top: 7.5rem;
     }
+    
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
