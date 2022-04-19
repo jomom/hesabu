@@ -66,10 +66,18 @@ const addProduct = async (req, res) => {
 
 
 /* Get all products */
-const allProducts = async function (req,res){
-    res.json('Hello World!')
-}
 
+const allProducts  = async function(req,res){
+        Product.find(function(err,products){
+            if (err) {
+                res.send({status: 500,message :'Unable to Find Products'})
+            }
+            else{
+                const recordCount = products.length;
+                res.send({recordCount : recordCount,response: products})
+            }
+        })
+    }
 
 module.exports= {
 	addProduct,	

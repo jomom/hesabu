@@ -10,6 +10,7 @@ import { CustomerService } from '../../../../services/customer.service';
 })
 export class CustomersListComponent implements OnInit {
 
+  
   customerResult: any;
   customerList: any;
   // data : any;
@@ -20,13 +21,14 @@ export class CustomersListComponent implements OnInit {
     this.getCustomerList();
   }
 
-  getCustomerList(){
-    this.customerService.getCustomers().subscribe( customerListResponse  => {
-        this.customerResult = customerListResponse;
+ getCustomerList(){
+    this.customerService.getCustomers().subscribe((data)  => {
+        this.customerResult = data;
         this.customerList = this.customerResult.results;
-        console.log(this.customerList);
+        console.log(this.customerResult);
     });
-
   }
+
+
 
 }

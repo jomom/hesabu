@@ -27,6 +27,7 @@
 		</div>
 
 		<div>
+			 <!-- *ngIf="customerList.length > 0" -->
 			<table class="table table-hover">
 				<thead>
 					<tr><th scope="col">#</th><th scope="col">Customer Name</th><th scope="col">Status</th>
@@ -36,31 +37,13 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<th scope="row">1</th>
-						<td>Mark</td>
-						<td></td>
-						<td></td>
-						<td>0 orders</td>
-						<td>KSh 0.00</td>
-					</tr>
-					<tr>
-						<th scope="row">2</th>
-						<td>Jacob</td>
-						<td></td>
-						<td></td>
-						<td>0 orders</td>
-						<td>KSh 0.00</td>
-					</tr>
-					<tr>
-						<th scope="row">3</th>
-						<td colspan="2">Larry the Bird</td>
-						<td></td>
-						
-						<td>0 orders</td>
-						<td>KSh 0.00</td>
-					</tr>
-
+					<tr *ngFor="let customer of customerList;index as i">
+						<th scope="row">{{customer._id}}</th>
+						<td>{{customer.firstName}}</td>
+						<td>{{customer.lastName}}</td>
+						<td>{{customer.email}}</td>
+						<td>{{customer.phoneNumber}}</td>
+					</tr> 
 				</tbody>
 			</table>
 

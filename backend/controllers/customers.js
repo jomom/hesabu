@@ -11,7 +11,7 @@
 			}
 			else{
 				const recordCount = customerListResponse.length;
-				res.send({status:200,recordCount : recordCount,response: customerListResponse})
+				res.send({recordCount : recordCount,response: customerListResponse})
 			}
 		})
 	}

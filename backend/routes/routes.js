@@ -36,7 +36,7 @@ router.post('/customers/search',customersController.searchCustomer);
 /*
 Admin Products Routes
 */
-router.get('/adminproducts/getall',adminProductsController.allProducts)
+router.get('/adminproducts/list',adminProductsController.allProducts)
 router.post('/adminproducts/add',adminProductsController.addProduct)
 
 

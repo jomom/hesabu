@@ -11,7 +11,6 @@ const http = require('http')
 const app = express()
 const port = 3000
 app.use(express.json())
-app.use(cors({ origin: '*' }))
 //add & use helmet 
 app.use(helmet());
 
@@ -20,30 +19,25 @@ app.use(helmet());
 // parse application/x-www-form-urlencoded/ // parse application/json
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(cors({credentials: true, origin: 'http://localhost:4200'}));
 //add cookie-parser
 app.use(cookieParser())
 // socket connection
 const server = http.createServer(app);
 const { Server } = require("socket.io");
-/* var io = require('socket.io')(server,
-    {
-    cors: {
-      origin:'*',
-      methods: ["GET", "POST"],
-      allowedHeaders: ["my-custom-header"],
-      credentials: true
-    }
-  }
-  
-  );  */
-const io = new Server(server, {
+
+const io = new Server(server,
+ {
   cors: {
-    origin: "*",
+    origin: 'http://localhost:4200',
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true
+   
   }
-});
+}
+);
+
 
 app.set('io',io);
 io.on('connection', (socket) => {
