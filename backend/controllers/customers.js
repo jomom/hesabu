@@ -4,31 +4,32 @@
 
 
 	/*Get AllCustomers*/
-	const allCustomers  = async function(req,res){
-		CustomerModel.find(function(err,customerListResponse){
-			if (err) {
-				res.send({status: 500,message :'Unable to Find Customers'})
-			}
-			else{
-				const recordCount = customerListResponse.length;
-				res.send({recordCount : recordCount,response: customerListResponse})
-			}
-		})
-	}
+    const allCustomers  = async function(req,res){
+        CustomerModel.find(function(err,customers){
+            if (err) {
+                res.send({status: 500,message :'Unable to Find Customers'})
+            }
+            else{
+                const recordCount = customers.length;
+                res.send({recordCount : recordCount,customers})
+            }
+        })
+    }
+
 
 	/*Get details of a Specific Customers*/
 	const singleCustomer  = async function(req,res){
 
-		const userId = req.query.userId;
+		const userId = req.params.id;
 
-		CustomerModel.findById(userId, function(err,customerResponse){
+		CustomerModel.findById(userId, function(err,data){
 
 			if (err) {
 				res.send({status: 500,message :'Unable to the Find Customer'})
 			}
 			else{
 				
-				res.send({status:200,response: customerResponse})
+				res.send({status:200,data})
 			}
 		})
 	}

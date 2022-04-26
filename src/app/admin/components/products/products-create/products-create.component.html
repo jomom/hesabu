@@ -3,6 +3,7 @@
 
         <form class="mx-auto bg-light" action="" id="addproduct_form">
             <h5 class="d-flex justify-content-start py-4"> Add Product</h5>
+            
 
             <div class="card p-4">
 
@@ -16,6 +17,34 @@
                     <ckeditor [editor]="editor" ></ckeditor>
                 </div>
             </div>
+
+
+            <!-- Start product status -->
+            <div class="card p-4 my-4">
+            <p> <b> Product Status</b></p>
+            <div class="form-floating">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected>Draft</option>
+                    <option value="1">Active</option>
+
+                </select>
+                <label for="floatingSelect">This product will be hidden from all sales channels.</label>
+                <label class="d-none" for="floatingSelect">This product will be available to 2 sales channels.</label>
+            </div>
+
+            <hr>
+            <small class="py-2">SALES CHANNELS AND APPS</small>
+            <div class="form-check py-3">
+                <div id="poshelp" class="form-text py-2">This product will be available to Point of Sale channel.</div>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChannel" checked>
+
+                <label class="form-check-label" for="flexCheckChannel">
+                    Point of Sale
+                </label>
+            </div>
+
+            </div>
+            <!--End product status -->
 
 
             <!-- Start Pricing -->
@@ -118,32 +147,6 @@
             </div>
             <!-- End Inventory -->
 
-            <!-- Start product status -->
-            <div class="card p-4 my-4">
-            <p> <b> Product Status</b></p>
-            <div class="form-floating">
-                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                    <option selected>Draft</option>
-                    <option value="1">Active</option>
-
-                </select>
-                <label for="floatingSelect">This product will be hidden from all sales channels.</label>
-                <label class="d-none" for="floatingSelect">This product will be available to 2 sales channels.</label>
-            </div>
-
-            <hr>
-            <small class="py-2">SALES CHANNELS AND APPS</small>
-            <div class="form-check py-3">
-                <div id="poshelp" class="form-text py-2">This product will be available to Point of Sale channel.</div>
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChannel" checked>
-
-                <label class="form-check-label" for="flexCheckChannel">
-                    Point of Sale
-                </label>
-            </div>
-
-            </div>
-            <!--End product status -->
 
             <button type="submit" class="btn btn-primary mt-3">Submit</button>
 

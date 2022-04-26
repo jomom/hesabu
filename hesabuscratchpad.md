@@ -27,6 +27,10 @@ Your account details:
 URL: xuwonusy.myshopify.com
 Login: xuwonusy.myshopify.com/admin
 
+0714685849
+@Kenya123
+vodas10477@arpizol.com
+
 shopify 2
 kexosi7636@f1xm.com
 killman
@@ -81,6 +85,12 @@ modelling schemamas
 
 helpfuljs(https://howtojs.io/how-to-properly-set-the-data-type-to-the-data-received-inside-subscribe-in-angular-13-application/)
 
+intergrate angular and mongodb
+(https://hevodata.com/learn/angular-mongodb/)
+mean stack app
+(https://www.positronx.io/mean-stack-tutorial-angular-crud-bootstrap/)
+angulawr back scolling
+(https://nils-mehlhorn.de/posts/angular-navigate-back-previous-page)
 ###Reading list 
 lazy loading angular modules
 small change
@@ -100,3 +110,9 @@ Product start here ...add product
 Orders
 
 In order to remove strict type warnings or errors make sure to set “strict”: false, "noImplicitReturns": false and "strictTemplates": false under compilerOptions and angularCompilerOptions properties in tsconfig.json file.
+
+## What is sku
+(https://www.shopify.com/retail/what-is-a-sku-number#:~:text=SKU%20numbers%20are%20important%20because,never%20goes%20out%20of%20stock.)
+(https://help.shopify.com/en/manual/locations/changing-quantities/exporting-or-importing-inventory)
+##Create a product schema
+(https://help.shopify.com/en/manual/products/import-export/using-csv#get-a-sample-csv-file)

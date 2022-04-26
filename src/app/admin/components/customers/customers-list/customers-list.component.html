@@ -34,16 +34,29 @@
 						<th scope="col">Location</th>
 						<th scope="col">Orders</th>
 						<th scope="col">Spent</th>
+						<th scope="col">Action</th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr *ngFor="let customer of customerList;index as i">
-						<th scope="row">{{customer._id}}</th>
+					<tr *ngFor="let customer of customers">
+						<th scope="row" style="width: 10%">{{customer._id}}</th>
 						<td>{{customer.firstName}}</td>
 						<td>{{customer.lastName}}</td>
-						<td>{{customer.email}}</td>
-						<td>{{customer.phoneNumber}}</td>
-					</tr> 
+						<td>100</td>
+						<td>2000</td>
+						<td>2000</td>
+						<td class="d-flex justify-content-between">
+							<a class="btn btn-info" [routerLink]="['view', customer._id]" >
+								<i class="fa-solid fa-eye"></i>
+							</a>
+							<a class="btn btn-warning" href="">
+								<i class="fa-solid fa-pen-to-square"></i>
+							</a>
+							<a class="btn btn-danger" href="">
+								<i class="fa-solid fa-trash"></i>
+							</a>
+						</td>
+					</tr>
 				</tbody>
 			</table>
 

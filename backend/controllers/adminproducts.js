@@ -74,10 +74,12 @@ const allProducts  = async function(req,res){
             }
             else{
                 const recordCount = products.length;
-                res.send({recordCount : recordCount,response: products})
+                res.send({recordCount : recordCount,products})
             }
         })
     }
+
+
 
 module.exports= {
 	addProduct,	

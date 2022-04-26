@@ -17,8 +17,9 @@ export class CustomerService {
     return this.httpClient.get(url)
   }
 
-  viewCustomer(id : any){
-
+  viewCustomer(id : any): Observable<any>{
+     let  url = environment.CUSTOMER_BASE_URL + environment.CUSTOMER.GET_CUSTOMER_DETAILS;
+     return this.httpClient.get(url)
   }
 
   editCustomer(id :  any ,customerObj : any){

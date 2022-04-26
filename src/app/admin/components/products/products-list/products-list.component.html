@@ -1,1 +1,93 @@
-<p>products-list works!</p>
+<div class='section'>
+	<div class="d-flex justify-content-between mt-2">
+		<h5 class="h5">Products</h5>
+		<a routerLink="/admin/products/addproduct" routerLinkActive="active" class="btn btn-primary">Add Products</a>
+
+		
+	</div>
+
+	<div class="card mt-2 p-2">
+		<div class="d-flex justify-content-between  card-header" style="background-color: #fff;">
+			<form class="d-flex col-sm-4 col-6 ">
+				<input class="form-control me-1" type="search" name="search-table" aria-label="search" placeholder="Search Within Table">
+				<button class="btn btn-outline-success" type="submit">
+					<i class="fa-solid fa-search"></i>
+				</button>
+			</form>
+
+			<div>
+				
+				<button>
+					<select class="form-select" aria-label="Default select example">
+						<option selected ><i class="fa-solid fa-arrow-up-z-a"></i>Filter </option>
+						<option value="1">Active</option>
+						<option value="2">Draft</option>
+						<option value="3">Archived</option>
+					</select>
+				</button>
+				<button>
+					<select class="form-select" aria-label="Default select example">
+						<option selected ><i class="fa-solid fa-arrow-up-z-a"></i>Sort </option>
+						<option value="1">Product title A–Z</option>
+						<option value="2">Product title Z–A</option>
+						<option value="3">Created (oldest first)</option>
+						<option value="4">Created (newest first)</option>
+						<option value="5">Low inventory</option>
+						<option value="6">High inventory</option>
+					</select>
+				</button>
+
+			</div>
+		</div>
+
+		<div>
+			<!-- *ngIf="customerList.length > 0" -->
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Product Name</th>
+						<th scope="col">Status</th>
+						<th scope="col">Inventory</th>
+						<th scope="col">Type</th>
+						<th scope="col">Vendor</th>
+						
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let product of products">
+						<th scope="row">{{product.product_id}}</th>
+						<td>{{product.productname}}</td>
+						<td>{{product.productprice}}</td>
+						<td>{{product.productstatus}}</td>
+						<td>{{product.productquantity}}</td>
+						<td>{{product.productcategory}}</td>
+						<td>{{product.productvendor}}</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div  class="d-flex justify-content-between">
+				<div>
+					<nav aria-label="Page navigation example">
+						<ul class="pagination">
+							<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+							<li class="page-item"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#">Next</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div>
+					<select class="form-select" aria-label="Default select example">
+						<option selected value="1">All </option>
+						<option value="2">Active</option>
+						<option value="3">Draft</option>
+						<option value="3">Archived</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

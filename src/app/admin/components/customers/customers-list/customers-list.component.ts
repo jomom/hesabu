@@ -10,25 +10,26 @@ import { CustomerService } from '../../../../services/customer.service';
 })
 export class CustomersListComponent implements OnInit {
 
-  
-  customerResult: any;
-  customerList: any;
+
+  customers: any;
+  customersList: any;
   // data : any;
 
-  constructor( private customerService : CustomerService ) { }
-
-  ngOnInit(): void {
+  constructor( private customerService : CustomerService ) {
     this.getCustomerList();
-  }
 
- getCustomerList(){
-    this.customerService.getCustomers().subscribe((data)  => {
-        this.customerResult = data;
-        this.customerList = this.customerResult.results;
-        console.log(this.customerResult);
+   }
+
+  ngOnInit(): void {  }
+
+  getCustomerList(){
+    this.customerService.getCustomers().subscribe( (data)  => {
+      this.customersList = data;
+      this.customers = this.customersList.customers;
+      console.log(this.customers);
     });
   }
 
-
+  
 
 }

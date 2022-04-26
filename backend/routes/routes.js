@@ -26,10 +26,10 @@ router.post('/auth/reset' , forgotController.reset);
 
 /*Customers Routes*/
 router.get('/customers/list',customersController.allCustomers);
-router.get('/customers/view',customersController.singleCustomer);
+router.get('/customers/view/:id',customersController.singleCustomer);
 router.post('/customers/add',customersController.createCustomer);
-router.put('/customers/update',customersController.updateCustomer);
-router.delete('/customers/delete',customersController.deleteCustomer);
+router.put('/customers/update/:id',customersController.updateCustomer);
+router.delete('/customers/delete/:id',customersController.deleteCustomer);
 router.post('/customers/search',customersController.searchCustomer);
 
 

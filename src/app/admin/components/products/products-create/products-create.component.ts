@@ -11,7 +11,7 @@ import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 export class ProductsCreateComponent implements OnInit {
 
   public editor = ClassicEditor;
-  
+
   constructor() { }
 
   ngOnInit(): void {
